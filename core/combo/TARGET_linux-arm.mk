@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2006 The Android Open Source Project
 #
@@ -35,7 +36,8 @@ TARGET_ARCH_VARIANT := armv5te
 endif
 
 ifeq ($(strip $(TARGET_GCC_VERSION_EXP)),)
-TARGET_GCC_VERSION := 4.7
+# TARGET_GCC_VERSION := 4.7
+TARGET_GCC_VERSION := 4.10
 else
 TARGET_GCC_VERSION := $(TARGET_GCC_VERSION_EXP)
 endif
